@@ -382,7 +382,8 @@ This guide is for non-technical users who will be editing content on the site.
 
 ### Using the Block Editor
 
-The site uses WordPress's Block Editor (Gutenberg) for content creation.
+The site uses WordPress's Block Editor (Gutenberg) for content creation. 
+There are also Patterns available, which are saved groups of blocks with preset text, settings, and styles. 
 
 #### Available Blocks
 
@@ -396,22 +397,32 @@ The site uses WordPress's Block Editor (Gutenberg) for content creation.
 - **Icon Block:** Content block with icon
 - **Section Title:** Styled section heading
 
+**Block Patterns**
+Using a pattern is very similar to copying a block from another page and pasting it to a new one. Some patterns are created from WordPress core. The ones specifically created for this site can be found in the **HIForum** category. 
+You can also create new patterns: select one or more blocks, click the 3 vertical dots icon, and select "Create pattern" from the menu.
+Patterns can be viewed and managed from the Admin menu, too. Under "Appearance", select "Design", and from the left sidebar that appears, click "Patterns". From here, you can manage your patterns. Click on one to edit it in its own block editor view.
+Note that a Pattern can also be "synced", which means that its content, settings, and styles are locked. If you change it in one place, it changes everywhere else it's used.
+
 #### Block Editor Tips
 
 1. **Adding Blocks:**
    - Click the `+` button or type `/` followed by the block name
    - Example: `/hero` to add a Hero block
 
-2. **Block Settings:**
+2. **Adding Patterns:**
+   - Click the `+` button and click the second tab, "Patterns"
+   - Select a pattern to add it to the page
+
+3. **Block Settings:**
    - Select a block to see its settings in the right sidebar
    - Use the toolbar above the block for formatting options
 
-3. **Color Palette:**
+4. **Color Palette:**
    - The theme provides a custom color palette
    - Available colors: Primary, Secondary, Text Dark, Text Light, etc.
    - Access via block color settings
 
-4. **Spacing:**
+5. **Spacing:**
    - Use the spacing controls in block settings
    - Custom spacing scale: 0.25rem increments
 
